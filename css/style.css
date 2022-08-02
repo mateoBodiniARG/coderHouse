@@ -1,0 +1,216 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor{
+    width: 100%;
+}
+.body {
+    font-size: 16px;
+    background: #780206;
+    background: -webkit-linear-gradient(to right, #061161, #780206);
+    background: linear-gradient(to right, #061161, #780206);
+    background-size: 500%;
+    margin-top: 0px;
+    padding: 0px;
+    height: 125vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500
+}
+
+.header_nav {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.header_nav ul li {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    justify-content: center;
+
+}
+
+li {
+    float: left;
+}
+
+.header_nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.header_nav ul li a {
+    padding: 10px;
+}
+
+.header__logo img {
+    cursor: pointer;
+    max-width: 60px;
+    margin: 10px
+}
+
+
+.portada img {
+    width: 50%;
+    cursor: pointer;
+    margin: 9px;
+    border-radius: 7px;
+    outline-color: #000000;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.50)
+}
+
+.section_div p {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+
+}
+
+.section_div img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    width: 400px;
+    margin: 10px;
+    border-radius: 7px;
+    outline-color: #000000;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.50)
+}
+
+.galeria div img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    width: 500px;
+    margin: 3px;
+    border-radius: 7px;
+    outline-color: #000000;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.50)
+}
+
+.section h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: grid;
+
+}
+
+.section_div {
+    text-align: left;
+    margin: 40px 340px 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+
+}
+
+.imgScout img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    width: 400px;
+    margin: 3px;
+    border-radius: 7px;
+    outline-color: #000000;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.50)
+}
+
+.scoutismoInfo {
+
+    text-align: center;
+    margin: 20px 300px 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+
+
+}
+
+.titulo {
+
+    font-weight: bold;
+    font-size: x-large
+}
+
+.galeria {
+
+    margin-right: 10px;
+    padding: 0px;
+    margin-left: 10px
+}
+
+.galeria__titulo h1 {
+    margin: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: x-large
+}
+
+.galeria {
+
+    display: grid;
+    width: 100%;
+    margin: auto;
+}
+
+.galeria_imagenes {
+    width: 100%;
+
+}
+
+.galeria .galeria_imagenes {
+
+    display: grid;
+}
+
+@media (min-width:520px) {
+
+    .galeria .galeria_imagenes {
+
+        grid-template-columns: repeat(2, 50%);
+
+    }
+
+}
+
+@media (min-width:728px) {
+
+    .galeria .galeria_imagenes {
+
+        grid-template-columns: repeat(3, 33.3%);
+
+    }
+
+}
