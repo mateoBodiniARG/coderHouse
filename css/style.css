@@ -1,0 +1,253 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contenedor {
+  width: 100%;
+}
+
+.body {
+  overflow-x: hidden;
+  align-items: center;
+  font-size: 16px;
+  background: #780206;
+  background: -webkit-linear-gradient(to right, #061161, #780206);
+  background: linear-gradient(to right, #061161, #780206);
+  background-size: 500%;
+  margin-top: 0px;
+  padding: 0px;
+  height: 125vh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.formulario h4{
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 600 ;
+
+}
+
+.formulario {
+  margin: 2rem;
+  
+}
+
+.contenedor{
+  
+  position: fixed;
+
+}
+/* .header_nav {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+} */
+
+/* .header_nav ul li {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  margin: 5px;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+.header_nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.header_nav ul li a {
+  padding: 10px;
+} */
+
+.header__logo img {
+  cursor: pointer;
+  max-width: 60px;
+  margin: 10px;
+}
+
+.portada {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+.portada img {
+  width: 50%;
+  cursor: pointer;
+  margin: 9px;
+  border-radius: 7px;
+  outline-color: #000000;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.5);
+}
+
+.section_div p {
+  /* width: 100%; */
+  padding: 1rem;
+}
+
+.section_div img {
+  cursor: pointer;
+  width: 94%;
+  margin: 3px;
+  border-radius: 7px;
+  outline-color: #000000;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.5);
+}
+
+.galeria div img {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  width: 450px;
+  border-radius: 7px;
+  outline-color: #000000;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.5);
+}
+
+.section h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  display: grid;
+}
+
+.section_div {
+  width: min(1080px, 90%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 0 auto;
+  padding: 60px 40px 40px 40px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+.section_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Original */
+/* .section_div {
+  display: flex;
+  margin: 40px 340px 70px;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  align-items: center;
+} */
+
+.imgScout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.imgScout img {
+  cursor: pointer;
+  width: 94%;
+  margin: 3px;
+  border-radius: 7px;
+  outline-color: #000000;
+  box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.5);
+}
+
+.scoutismoInfo {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 800px) {
+  .scoutismoInfo,
+  .section_div {
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+}
+
+/* .scoutismoInfo {
+    text-align: center;
+    margin: 20px 300px 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    color: aliceblue;
+  } */
+
+.titulo {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.galeria__titulo h1 {
+  margin: 10px;
+  text-align: center;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  display: grid;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.galeria img {
+  transform: scale(1);
+  transition: 0.5s ease-in-out;
+}
+
+.galeria img:hover {
+  transform: scale(1.1);
+}
+
+.galeria .galeria_imagenes {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 520px) {
+  .galeria .galeria_imagenes {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+
+@media (min-width: 728px) {
+  .galeria .galeria_imagenes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
