@@ -1,0 +1,15 @@
+%dip{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.galeria{
+    @extend %dip;
+}
+.section h1{
+
+    @extend %dip
+
+}

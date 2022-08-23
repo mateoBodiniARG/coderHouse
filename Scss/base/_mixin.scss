@@ -1,0 +1,5 @@
+@mixin marv ($font, $fontW , $fontS){
+    font-family: $font;
+    font-size: $fontS;
+    font-weight: $fontW;
+}

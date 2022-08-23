@@ -1,0 +1,12 @@
+$port:(
+    map1: black,
+    map2: pointer, 
+    map3: 8px,
+);
+.portada {
+
+    img {
+       cursor: map-get($port , map2 );
+    }
+
+}
